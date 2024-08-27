@@ -232,10 +232,31 @@ main hr {
     text-align: center;
     margin-top: 50px;
 }
-.footer-container{
+
+footer {
     margin-top: 100px;
-    display: flex;
-    background:#FFF8F3;
+    background: #FFF8F3;
     padding: 130px 200px;
+    display: flex;
+    gap: 100px;
 }
 
+.footer-column {
+    width: 50%;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 100%;
+
+}
+/* .social-link a{
+    margin-left: 24px;
+} */
